@@ -1,0 +1,833 @@
+Archive member included because of file (symbol)
+
+/home/victor/workspace/eclipse_arduino/arduinoCore/Release/libarduinoCore.a(malloc.o)
+                              ./ulthread.o (malloc)
+/home/victor/workspace/eclipse_arduino/arduinoCore/Release/libarduinoCore.a(wiring.o)
+                              ./main.o (init)
+/home/victor/workspace/eclipse_arduino/arduinoCore/Release/libarduinoCore.a(wiring_digital.o)
+                              ./main.o (pinMode)
+/usr/lib/gcc/avr/4.7.2/avr5/libgcc.a(_exit.o)
+                              /usr/lib/gcc/avr/4.7.2/../../../avr/lib/avr5/crtm328p.o (exit)
+/usr/lib/gcc/avr/4.7.2/avr5/libgcc.a(_copy_data.o)
+                              ./main.o (__do_copy_data)
+/usr/lib/gcc/avr/4.7.2/avr5/libgcc.a(_clear_bss.o)
+                              ./ulthread.o (__do_clear_bss)
+/usr/lib/gcc/avr/4.7.2/../../../avr/lib/avr5/libc.a(printf.o)
+                              ./main.o (printf)
+/usr/lib/gcc/avr/4.7.2/../../../avr/lib/avr5/libc.a(puts.o)
+                              ./ulthread.o (puts)
+/usr/lib/gcc/avr/4.7.2/../../../avr/lib/avr5/libc.a(vfprintf_std.o)
+                              /usr/lib/gcc/avr/4.7.2/../../../avr/lib/avr5/libc.a(printf.o) (vfprintf)
+/usr/lib/gcc/avr/4.7.2/../../../avr/lib/avr5/libc.a(strnlen_P.o)
+                              /usr/lib/gcc/avr/4.7.2/../../../avr/lib/avr5/libc.a(vfprintf_std.o) (strnlen_P)
+/usr/lib/gcc/avr/4.7.2/../../../avr/lib/avr5/libc.a(strnlen.o)
+                              /usr/lib/gcc/avr/4.7.2/../../../avr/lib/avr5/libc.a(vfprintf_std.o) (strnlen)
+/usr/lib/gcc/avr/4.7.2/../../../avr/lib/avr5/libc.a(fputc.o)
+                              /usr/lib/gcc/avr/4.7.2/../../../avr/lib/avr5/libc.a(vfprintf_std.o) (fputc)
+/usr/lib/gcc/avr/4.7.2/../../../avr/lib/avr5/libc.a(iob.o)
+                              /usr/lib/gcc/avr/4.7.2/../../../avr/lib/avr5/libc.a(printf.o) (__iob)
+/usr/lib/gcc/avr/4.7.2/../../../avr/lib/avr5/libc.a(ultoa_invert.o)
+                              /usr/lib/gcc/avr/4.7.2/../../../avr/lib/avr5/libc.a(vfprintf_std.o) (__ultoa_invert)
+/usr/lib/gcc/avr/4.7.2/avr5/libgcc.a(_prologue.o)
+                              /usr/lib/gcc/avr/4.7.2/../../../avr/lib/avr5/libc.a(printf.o) (__prologue_saves__)
+/usr/lib/gcc/avr/4.7.2/avr5/libgcc.a(_epilogue.o)
+                              /usr/lib/gcc/avr/4.7.2/../../../avr/lib/avr5/libc.a(printf.o) (__epilogue_restores__)
+
+Allocating common symbols
+Common symbol       size              file
+
+sch                 0xa               ./ulthread.o
+threads             0xc               ./ulthread.o
+__brkval            0x2               /home/victor/workspace/eclipse_arduino/arduinoCore/Release/libarduinoCore.a(malloc.o)
+__flp               0x2               /home/victor/workspace/eclipse_arduino/arduinoCore/Release/libarduinoCore.a(malloc.o)
+__iob               0x6               /usr/lib/gcc/avr/4.7.2/../../../avr/lib/avr5/libc.a(iob.o)
+
+Discarded input sections
+
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.7.2/../../../avr/lib/avr5/crtm328p.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.7.2/../../../avr/lib/avr5/crtm328p.o
+ .stab          0x0000000000000000      0x6cc /usr/lib/gcc/avr/4.7.2/../../../avr/lib/avr5/crtm328p.o
+ .stabstr       0x0000000000000000       0x64 /usr/lib/gcc/avr/4.7.2/../../../avr/lib/avr5/crtm328p.o
+ .text          0x0000000000000000        0x0 ./LS_ATmega328.o
+ .data          0x0000000000000000        0x0 ./LS_ATmega328.o
+ .bss           0x0000000000000000        0x0 ./LS_ATmega328.o
+ .text.eepromWrite
+                0x0000000000000000       0x12 ./LS_ATmega328.o
+ .text.eepromRead
+                0x0000000000000000        0xe ./LS_ATmega328.o
+ .text.spiMasterInit
+                0x0000000000000000       0x14 ./LS_ATmega328.o
+ .text.spi_transfer
+                0x0000000000000000        0xc ./LS_ATmega328.o
+ .text.spi_write_data
+                0x0000000000000000       0x3c ./LS_ATmega328.o
+ .text.spi_read_data
+                0x0000000000000000       0x40 ./LS_ATmega328.o
+ .text.spiSlaveInit
+                0x0000000000000000        0xc ./LS_ATmega328.o
+ .text.spiSlaveReceive
+                0x0000000000000000        0xa ./LS_ATmega328.o
+ .text.adcGetConfiguration
+                0x0000000000000000       0x7e ./LS_ATmega328.o
+ .text.adcLoadConfiguration
+                0x0000000000000000       0x7c ./LS_ATmega328.o
+ .text.adcStartConversion
+                0x0000000000000000        0xc ./LS_ATmega328.o
+ .text.adcSelectChannel
+                0x0000000000000000        0xe ./LS_ATmega328.o
+ .text.adcWaitConversionFinish
+                0x0000000000000000        0xa ./LS_ATmega328.o
+ .text          0x0000000000000000        0x0 ./main.o
+ .data          0x0000000000000000        0x0 ./main.o
+ .bss           0x0000000000000000        0x0 ./main.o
+ .text.loop     0x0000000000000000        0x2 ./main.o
+ .text          0x0000000000000000        0x0 ./ulthread.o
+ .data          0x0000000000000000        0x0 ./ulthread.o
+ .bss           0x0000000000000000        0x0 ./ulthread.o
+ .rodata.str1.1
+                0x0000000000000000      0x1f7 ./ulthread.o
+ .text.swapcontext
+                0x0000000000000000       0xd0 ./ulthread.o
+ .text.list_get
+                0x0000000000000000       0x30 ./ulthread.o
+ .text.list_removeTail
+                0x0000000000000000       0x72 ./ulthread.o
+ .text.list_removeHead
+                0x0000000000000000       0x60 ./ulthread.o
+ .text.list_remove_tid
+                0x0000000000000000       0x86 ./ulthread.o
+ .text.list_insert
+                0x0000000000000000       0x44 ./ulthread.o
+ .text.list_append
+                0x0000000000000000       0x44 ./ulthread.o
+ .text.plist_insert
+                0x0000000000000000       0x90 ./ulthread.o
+ .text.create   0x0000000000000000      0x114 ./ulthread.o
+ .text.yield    0x0000000000000000       0x52 ./ulthread.o
+ .text.idle_task
+                0x0000000000000000       0x18 ./ulthread.o
+ .text.getid    0x0000000000000000        0xe ./ulthread.o
+ .text.join     0x0000000000000000       0xae ./ulthread.o
+ .text.finish   0x0000000000000000       0x7c ./ulthread.o
+ .text.get_threadState
+                0x0000000000000000       0x1e ./ulthread.o
+ .text.get_threadPriority
+                0x0000000000000000       0x1e ./ulthread.o
+ .text.print_list
+                0x0000000000000000       0x82 ./ulthread.o
+ .text.reschedule
+                0x0000000000000000       0xbe ./ulthread.o
+ .text.debug    0x0000000000000000       0x24 ./ulthread.o
+ .text.create_idle
+                0x0000000000000000       0xd2 ./ulthread.o
+ .text.init_scheduler
+                0x0000000000000000       0x7c ./ulthread.o
+ .bss.pxCurrentTCB
+                0x0000000000000000        0x2 ./ulthread.o
+ .rodata.CSWTCH.19
+                0x0000000000000000        0x8 ./ulthread.o
+ .rodata.CSWTCH.22
+                0x0000000000000000        0xc ./ulthread.o
+ COMMON         0x0000000000000000       0x16 ./ulthread.o
+ .text          0x0000000000000000        0x0 /home/victor/workspace/eclipse_arduino/arduinoCore/Release/libarduinoCore.a(malloc.o)
+ .data          0x0000000000000000        0x0 /home/victor/workspace/eclipse_arduino/arduinoCore/Release/libarduinoCore.a(malloc.o)
+ .bss           0x0000000000000000        0x0 /home/victor/workspace/eclipse_arduino/arduinoCore/Release/libarduinoCore.a(malloc.o)
+ .text.avr-libc
+                0x0000000000000000      0x274 /home/victor/workspace/eclipse_arduino/arduinoCore/Release/libarduinoCore.a(malloc.o)
+ .data.__malloc_heap_end
+                0x0000000000000000        0x2 /home/victor/workspace/eclipse_arduino/arduinoCore/Release/libarduinoCore.a(malloc.o)
+ .data.__malloc_heap_start
+                0x0000000000000000        0x2 /home/victor/workspace/eclipse_arduino/arduinoCore/Release/libarduinoCore.a(malloc.o)
+ .data.__malloc_margin
+                0x0000000000000000        0x2 /home/victor/workspace/eclipse_arduino/arduinoCore/Release/libarduinoCore.a(malloc.o)
+ COMMON         0x0000000000000000        0x4 /home/victor/workspace/eclipse_arduino/arduinoCore/Release/libarduinoCore.a(malloc.o)
+ .text          0x0000000000000000        0x0 /home/victor/workspace/eclipse_arduino/arduinoCore/Release/libarduinoCore.a(wiring.o)
+ .data          0x0000000000000000        0x0 /home/victor/workspace/eclipse_arduino/arduinoCore/Release/libarduinoCore.a(wiring.o)
+ .bss           0x0000000000000000        0x0 /home/victor/workspace/eclipse_arduino/arduinoCore/Release/libarduinoCore.a(wiring.o)
+ .text.millis   0x0000000000000000       0x24 /home/victor/workspace/eclipse_arduino/arduinoCore/Release/libarduinoCore.a(wiring.o)
+ .text.micros   0x0000000000000000       0x54 /home/victor/workspace/eclipse_arduino/arduinoCore/Release/libarduinoCore.a(wiring.o)
+ .text.delay    0x0000000000000000       0x4c /home/victor/workspace/eclipse_arduino/arduinoCore/Release/libarduinoCore.a(wiring.o)
+ .text.delayMicroseconds
+                0x0000000000000000       0x14 /home/victor/workspace/eclipse_arduino/arduinoCore/Release/libarduinoCore.a(wiring.o)
+ .text          0x0000000000000000        0x0 /home/victor/workspace/eclipse_arduino/arduinoCore/Release/libarduinoCore.a(wiring_digital.o)
+ .data          0x0000000000000000        0x0 /home/victor/workspace/eclipse_arduino/arduinoCore/Release/libarduinoCore.a(wiring_digital.o)
+ .bss           0x0000000000000000        0x0 /home/victor/workspace/eclipse_arduino/arduinoCore/Release/libarduinoCore.a(wiring_digital.o)
+ .text.turnOffPWM
+                0x0000000000000000       0x54 /home/victor/workspace/eclipse_arduino/arduinoCore/Release/libarduinoCore.a(wiring_digital.o)
+ .text.digitalWrite
+                0x0000000000000000       0x6e /home/victor/workspace/eclipse_arduino/arduinoCore/Release/libarduinoCore.a(wiring_digital.o)
+ .text.digitalRead
+                0x0000000000000000       0x52 /home/victor/workspace/eclipse_arduino/arduinoCore/Release/libarduinoCore.a(wiring_digital.o)
+ .progmem.data.digital_pin_to_timer_PGM
+                0x0000000000000000       0x14 /home/victor/workspace/eclipse_arduino/arduinoCore/Release/libarduinoCore.a(wiring_digital.o)
+ .progmem.data.port_to_input_PGM
+                0x0000000000000000        0xa /home/victor/workspace/eclipse_arduino/arduinoCore/Release/libarduinoCore.a(wiring_digital.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.7.2/avr5/libgcc.a(_exit.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.7.2/avr5/libgcc.a(_exit.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.7.2/avr5/libgcc.a(_exit.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.7.2/avr5/libgcc.a(_exit.o)
+ .text.libgcc.div
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.7.2/avr5/libgcc.a(_exit.o)
+ .text.libgcc   0x0000000000000000        0x0 /usr/lib/gcc/avr/4.7.2/avr5/libgcc.a(_exit.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.7.2/avr5/libgcc.a(_exit.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.7.2/avr5/libgcc.a(_exit.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.7.2/avr5/libgcc.a(_exit.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.7.2/avr5/libgcc.a(_copy_data.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.7.2/avr5/libgcc.a(_copy_data.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.7.2/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.7.2/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.div
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.7.2/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc   0x0000000000000000        0x0 /usr/lib/gcc/avr/4.7.2/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.7.2/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.7.2/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.7.2/avr5/libgcc.a(_copy_data.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.7.2/avr5/libgcc.a(_clear_bss.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.7.2/avr5/libgcc.a(_clear_bss.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.7.2/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.7.2/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.div
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.7.2/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc   0x0000000000000000        0x0 /usr/lib/gcc/avr/4.7.2/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.7.2/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.7.2/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.7.2/avr5/libgcc.a(_clear_bss.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.7.2/../../../avr/lib/avr5/libc.a(printf.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.7.2/../../../avr/lib/avr5/libc.a(printf.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.7.2/../../../avr/lib/avr5/libc.a(printf.o)
+ .stab          0x0000000000000000      0x39c /usr/lib/gcc/avr/4.7.2/../../../avr/lib/avr5/libc.a(printf.o)
+ .stabstr       0x0000000000000000      0x7b8 /usr/lib/gcc/avr/4.7.2/../../../avr/lib/avr5/libc.a(printf.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.7.2/../../../avr/lib/avr5/libc.a(puts.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.7.2/../../../avr/lib/avr5/libc.a(puts.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.7.2/../../../avr/lib/avr5/libc.a(puts.o)
+ .stab          0x0000000000000000      0x3e4 /usr/lib/gcc/avr/4.7.2/../../../avr/lib/avr5/libc.a(puts.o)
+ .stabstr       0x0000000000000000      0x7b0 /usr/lib/gcc/avr/4.7.2/../../../avr/lib/avr5/libc.a(puts.o)
+ .text.avr-libc
+                0x0000000000000000       0x5e /usr/lib/gcc/avr/4.7.2/../../../avr/lib/avr5/libc.a(puts.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.7.2/../../../avr/lib/avr5/libc.a(vfprintf_std.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.7.2/../../../avr/lib/avr5/libc.a(vfprintf_std.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.7.2/../../../avr/lib/avr5/libc.a(vfprintf_std.o)
+ .stab          0x0000000000000000      0xc24 /usr/lib/gcc/avr/4.7.2/../../../avr/lib/avr5/libc.a(vfprintf_std.o)
+ .stabstr       0x0000000000000000      0x9c9 /usr/lib/gcc/avr/4.7.2/../../../avr/lib/avr5/libc.a(vfprintf_std.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.7.2/../../../avr/lib/avr5/libc.a(strnlen_P.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.7.2/../../../avr/lib/avr5/libc.a(strnlen_P.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.7.2/../../../avr/lib/avr5/libc.a(strnlen_P.o)
+ .stab          0x0000000000000000       0xa8 /usr/lib/gcc/avr/4.7.2/../../../avr/lib/avr5/libc.a(strnlen_P.o)
+ .stabstr       0x0000000000000000       0x44 /usr/lib/gcc/avr/4.7.2/../../../avr/lib/avr5/libc.a(strnlen_P.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.7.2/../../../avr/lib/avr5/libc.a(strnlen.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.7.2/../../../avr/lib/avr5/libc.a(strnlen.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.7.2/../../../avr/lib/avr5/libc.a(strnlen.o)
+ .stab          0x0000000000000000       0xa8 /usr/lib/gcc/avr/4.7.2/../../../avr/lib/avr5/libc.a(strnlen.o)
+ .stabstr       0x0000000000000000       0x40 /usr/lib/gcc/avr/4.7.2/../../../avr/lib/avr5/libc.a(strnlen.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.7.2/../../../avr/lib/avr5/libc.a(fputc.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.7.2/../../../avr/lib/avr5/libc.a(fputc.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.7.2/../../../avr/lib/avr5/libc.a(fputc.o)
+ .stab          0x0000000000000000      0x3b4 /usr/lib/gcc/avr/4.7.2/../../../avr/lib/avr5/libc.a(fputc.o)
+ .stabstr       0x0000000000000000      0x7a4 /usr/lib/gcc/avr/4.7.2/../../../avr/lib/avr5/libc.a(fputc.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.7.2/../../../avr/lib/avr5/libc.a(iob.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.7.2/../../../avr/lib/avr5/libc.a(iob.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.7.2/../../../avr/lib/avr5/libc.a(iob.o)
+ .stab          0x0000000000000000      0x30c /usr/lib/gcc/avr/4.7.2/../../../avr/lib/avr5/libc.a(iob.o)
+ .stabstr       0x0000000000000000      0x7b0 /usr/lib/gcc/avr/4.7.2/../../../avr/lib/avr5/libc.a(iob.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.7.2/../../../avr/lib/avr5/libc.a(ultoa_invert.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.7.2/../../../avr/lib/avr5/libc.a(ultoa_invert.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.7.2/../../../avr/lib/avr5/libc.a(ultoa_invert.o)
+ .stab          0x0000000000000000      0x48c /usr/lib/gcc/avr/4.7.2/../../../avr/lib/avr5/libc.a(ultoa_invert.o)
+ .stabstr       0x0000000000000000       0x44 /usr/lib/gcc/avr/4.7.2/../../../avr/lib/avr5/libc.a(ultoa_invert.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.7.2/avr5/libgcc.a(_prologue.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.7.2/avr5/libgcc.a(_prologue.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.7.2/avr5/libgcc.a(_prologue.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.7.2/avr5/libgcc.a(_prologue.o)
+ .text.libgcc.div
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.7.2/avr5/libgcc.a(_prologue.o)
+ .text.libgcc   0x0000000000000000        0x0 /usr/lib/gcc/avr/4.7.2/avr5/libgcc.a(_prologue.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.7.2/avr5/libgcc.a(_prologue.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.7.2/avr5/libgcc.a(_prologue.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.7.2/avr5/libgcc.a(_epilogue.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.7.2/avr5/libgcc.a(_epilogue.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.7.2/avr5/libgcc.a(_epilogue.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.7.2/avr5/libgcc.a(_epilogue.o)
+ .text.libgcc.div
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.7.2/avr5/libgcc.a(_epilogue.o)
+ .text.libgcc   0x0000000000000000        0x0 /usr/lib/gcc/avr/4.7.2/avr5/libgcc.a(_epilogue.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.7.2/avr5/libgcc.a(_epilogue.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.7.2/avr5/libgcc.a(_epilogue.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x0000000000000000 0x0000000000020000 xr
+data             0x0000000000800060 0x000000000000ffa0 rw !x
+eeprom           0x0000000000810000 0x0000000000010000 rw !x
+fuse             0x0000000000820000 0x0000000000000400 rw !x
+lock             0x0000000000830000 0x0000000000000400 rw !x
+signature        0x0000000000840000 0x0000000000000400 rw !x
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+Address of section .data set to 0x800100
+LOAD /usr/lib/gcc/avr/4.7.2/../../../avr/lib/avr5/crtm328p.o
+LOAD ./LS_ATmega328.o
+LOAD ./main.o
+LOAD ./ulthread.o
+LOAD /home/victor/workspace/eclipse_arduino/arduinoCore/Release/libarduinoCore.a
+LOAD /usr/lib/gcc/avr/4.7.2/avr5/libgcc.a
+LOAD /usr/lib/gcc/avr/4.7.2/../../../avr/lib/avr5/libm.a
+LOAD /usr/lib/gcc/avr/4.7.2/avr5/libgcc.a
+LOAD /usr/lib/gcc/avr/4.7.2/../../../avr/lib/avr5/libc.a
+LOAD /usr/lib/gcc/avr/4.7.2/avr5/libgcc.a
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x0000000000000000      0x896
+ *(.vectors)
+ .vectors       0x0000000000000000       0x68 /usr/lib/gcc/avr/4.7.2/../../../avr/lib/avr5/crtm328p.o
+                0x0000000000000000                __vectors
+                0x0000000000000000                __vector_default
+ *(.vectors)
+ *(.progmem.gcc*)
+ *(.progmem*)
+ .progmem.data.digital_pin_to_bit_mask_PGM
+                0x0000000000000068       0x14 /home/victor/workspace/eclipse_arduino/arduinoCore/Release/libarduinoCore.a(wiring_digital.o)
+                0x0000000000000068                digital_pin_to_bit_mask_PGM
+ .progmem.data.digital_pin_to_port_PGM
+                0x000000000000007c       0x14 /home/victor/workspace/eclipse_arduino/arduinoCore/Release/libarduinoCore.a(wiring_digital.o)
+                0x000000000000007c                digital_pin_to_port_PGM
+ .progmem.data.port_to_output_PGM
+                0x0000000000000090        0xa /home/victor/workspace/eclipse_arduino/arduinoCore/Release/libarduinoCore.a(wiring_digital.o)
+                0x0000000000000090                port_to_output_PGM
+ .progmem.data.port_to_mode_PGM
+                0x000000000000009a        0xa /home/victor/workspace/eclipse_arduino/arduinoCore/Release/libarduinoCore.a(wiring_digital.o)
+                0x000000000000009a                port_to_mode_PGM
+                0x00000000000000a4                . = ALIGN (0x2)
+                0x00000000000000a4                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x00000000000000a4        0x0 linker stubs
+ *(.trampolines*)
+                0x00000000000000a4                __trampolines_end = .
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x00000000000000a4                __ctors_start = .
+ *(.ctors)
+                0x00000000000000a4                __ctors_end = .
+                0x00000000000000a4                __dtors_start = .
+ *(.dtors)
+                0x00000000000000a4                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x00000000000000a4        0x0 /usr/lib/gcc/avr/4.7.2/../../../avr/lib/avr5/crtm328p.o
+                0x00000000000000a4                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x00000000000000a4        0xc /usr/lib/gcc/avr/4.7.2/../../../avr/lib/avr5/crtm328p.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x00000000000000b0       0x16 /usr/lib/gcc/avr/4.7.2/avr5/libgcc.a(_copy_data.o)
+                0x00000000000000b0                __do_copy_data
+ .init4         0x00000000000000c6       0x10 /usr/lib/gcc/avr/4.7.2/avr5/libgcc.a(_clear_bss.o)
+                0x00000000000000c6                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x00000000000000d6        0x4 /usr/lib/gcc/avr/4.7.2/../../../avr/lib/avr5/crtm328p.o
+ *(.init9)
+ *(.text)
+ .text          0x00000000000000da        0x2 /usr/lib/gcc/avr/4.7.2/../../../avr/lib/avr5/crtm328p.o
+                0x00000000000000da                __vector_22
+                0x00000000000000da                __vector_1
+                0x00000000000000da                __vector_24
+                0x00000000000000da                __vector_12
+                0x00000000000000da                __bad_interrupt
+                0x00000000000000da                __vector_6
+                0x00000000000000da                __vector_3
+                0x00000000000000da                __vector_23
+                0x00000000000000da                __vector_25
+                0x00000000000000da                __vector_11
+                0x00000000000000da                __vector_13
+                0x00000000000000da                __vector_17
+                0x00000000000000da                __vector_19
+                0x00000000000000da                __vector_7
+                0x00000000000000da                __vector_5
+                0x00000000000000da                __vector_4
+                0x00000000000000da                __vector_9
+                0x00000000000000da                __vector_2
+                0x00000000000000da                __vector_21
+                0x00000000000000da                __vector_15
+                0x00000000000000da                __vector_8
+                0x00000000000000da                __vector_14
+                0x00000000000000da                __vector_10
+                0x00000000000000da                __vector_18
+                0x00000000000000da                __vector_20
+                0x00000000000000dc                . = ALIGN (0x2)
+ *(.text.*)
+ .text._Z7thr_runPv
+                0x00000000000000dc       0x50 ./main.o
+                0x00000000000000dc                _Z7thr_runPv
+ .text.setup    0x000000000000012c        0x8 ./main.o
+                0x000000000000012c                setup
+ .text.startup.main
+                0x0000000000000134       0x72 ./main.o
+                0x0000000000000134                main
+ .text.__vector_16
+                0x00000000000001a6       0x94 /home/victor/workspace/eclipse_arduino/arduinoCore/Release/libarduinoCore.a(wiring.o)
+                0x00000000000001a6                __vector_16
+ .text.init     0x000000000000023a       0x76 /home/victor/workspace/eclipse_arduino/arduinoCore/Release/libarduinoCore.a(wiring.o)
+                0x000000000000023a                init
+ .text.pinMode  0x00000000000002b0       0x70 /home/victor/workspace/eclipse_arduino/arduinoCore/Release/libarduinoCore.a(wiring_digital.o)
+                0x00000000000002b0                pinMode
+ .text.avr-libc
+                0x0000000000000320       0x28 /usr/lib/gcc/avr/4.7.2/../../../avr/lib/avr5/libc.a(printf.o)
+                0x0000000000000320                printf
+ .text.avr-libc
+                0x0000000000000348      0x39c /usr/lib/gcc/avr/4.7.2/../../../avr/lib/avr5/libc.a(vfprintf_std.o)
+                0x0000000000000348                vfprintf
+ .text.avr-libc
+                0x00000000000006e4       0x16 /usr/lib/gcc/avr/4.7.2/../../../avr/lib/avr5/libc.a(strnlen_P.o)
+                0x00000000000006e4                strnlen_P
+ .text.avr-libc
+                0x00000000000006fa       0x16 /usr/lib/gcc/avr/4.7.2/../../../avr/lib/avr5/libc.a(strnlen.o)
+                0x00000000000006fa                strnlen
+ .text.avr-libc
+                0x0000000000000710       0x58 /usr/lib/gcc/avr/4.7.2/../../../avr/lib/avr5/libc.a(fputc.o)
+                0x0000000000000710                fputc
+ .text.avr-libc
+                0x0000000000000768       0xbc /usr/lib/gcc/avr/4.7.2/../../../avr/lib/avr5/libc.a(ultoa_invert.o)
+                0x0000000000000768                __ultoa_invert
+ .text.libgcc.prologue
+                0x0000000000000824       0x38 /usr/lib/gcc/avr/4.7.2/avr5/libgcc.a(_prologue.o)
+                0x0000000000000824                __prologue_saves__
+ .text.libgcc.prologue
+                0x000000000000085c       0x36 /usr/lib/gcc/avr/4.7.2/avr5/libgcc.a(_epilogue.o)
+                0x000000000000085c                __epilogue_restores__
+                0x0000000000000892                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x0000000000000892        0x0 /usr/lib/gcc/avr/4.7.2/avr5/libgcc.a(_exit.o)
+                0x0000000000000892                exit
+                0x0000000000000892                _exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x0000000000000892        0x4 /usr/lib/gcc/avr/4.7.2/avr5/libgcc.a(_exit.o)
+ *(.fini0)
+                0x0000000000000896                _etext = .
+
+.data           0x0000000000800100        0x6 load address 0x0000000000000896
+                0x0000000000800100                PROVIDE (__data_start, .)
+ *(.data)
+ *(.data*)
+ .data.ledPin   0x0000000000800100        0x2 ./main.o
+                0x0000000000800100                ledPin
+ *(.rodata)
+ *(.rodata*)
+ .rodata.str1.1
+                0x0000000000800102        0x4 ./main.o
+ *(.gnu.linkonce.d*)
+                0x0000000000800106                . = ALIGN (0x2)
+                0x0000000000800106                _edata = .
+                0x0000000000800106                PROVIDE (__data_end, .)
+
+.bss            0x0000000000800106        0xf
+                0x0000000000800106                PROVIDE (__bss_start, .)
+ *(.bss)
+ *(.bss*)
+ .bss.timer0_millis
+                0x0000000000800106        0x4 /home/victor/workspace/eclipse_arduino/arduinoCore/Release/libarduinoCore.a(wiring.o)
+                0x0000000000800106                timer0_millis
+ .bss.timer0_overflow_count
+                0x000000000080010a        0x4 /home/victor/workspace/eclipse_arduino/arduinoCore/Release/libarduinoCore.a(wiring.o)
+                0x000000000080010a                timer0_overflow_count
+ .bss.timer0_fract
+                0x000000000080010e        0x1 /home/victor/workspace/eclipse_arduino/arduinoCore/Release/libarduinoCore.a(wiring.o)
+ *(COMMON)
+ COMMON         0x000000000080010f        0x6 /usr/lib/gcc/avr/4.7.2/../../../avr/lib/avr5/libc.a(iob.o)
+                0x000000000080010f                __iob
+                0x0000000000800115                PROVIDE (__bss_end, .)
+                0x0000000000000896                __data_load_start = LOADADDR (.data)
+                0x000000000000089c                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x0000000000800115        0x0
+                0x0000000000800115                PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                0x0000000000800115                PROVIDE (__noinit_end, .)
+                0x0000000000800115                _end = .
+                0x0000000000800115                PROVIDE (__heap_start, .)
+
+.eeprom         0x0000000000810000        0x0
+ *(.eeprom*)
+                0x0000000000810000                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x22
+ *(.comment)
+ .comment       0x0000000000000000       0x11 ./LS_ATmega328.o
+                                         0x12 (size before relaxing)
+ .comment       0x0000000000000000       0x12 ./main.o
+ .comment       0x0000000000000000       0x12 ./ulthread.o
+ .comment       0x0000000000000000       0x12 /home/victor/workspace/eclipse_arduino/arduinoCore/Release/libarduinoCore.a(malloc.o)
+ .comment       0x0000000000000000       0x12 /home/victor/workspace/eclipse_arduino/arduinoCore/Release/libarduinoCore.a(wiring.o)
+ .comment       0x0000000000000000       0x12 /home/victor/workspace/eclipse_arduino/arduinoCore/Release/libarduinoCore.a(wiring_digital.o)
+ .comment       0x0000000000000011       0x11 /usr/lib/gcc/avr/4.7.2/../../../avr/lib/avr5/libc.a(printf.o)
+                                         0x12 (size before relaxing)
+ .comment       0x0000000000000000       0x12 /usr/lib/gcc/avr/4.7.2/../../../avr/lib/avr5/libc.a(puts.o)
+ .comment       0x0000000000000000       0x12 /usr/lib/gcc/avr/4.7.2/../../../avr/lib/avr5/libc.a(vfprintf_std.o)
+ .comment       0x0000000000000000       0x12 /usr/lib/gcc/avr/4.7.2/../../../avr/lib/avr5/libc.a(fputc.o)
+ .comment       0x0000000000000000       0x12 /usr/lib/gcc/avr/4.7.2/../../../avr/lib/avr5/libc.a(iob.o)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info
+ *(.debug_info)
+ *(.gnu.linkonce.wi.*)
+
+.debug_abbrev
+ *(.debug_abbrev)
+
+.debug_line
+ *(.debug_line)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+OUTPUT(arduino_kernel.elf elf32-avr)
+LOAD linker stubs
+
+Cross Reference Table
+
+Symbol                                            File
+__bad_interrupt                                   /usr/lib/gcc/avr/4.7.2/../../../avr/lib/avr5/crtm328p.o
+__brkval                                          /home/victor/workspace/eclipse_arduino/arduinoCore/Release/libarduinoCore.a(malloc.o)
+__bss_end                                         /usr/lib/gcc/avr/4.7.2/avr5/libgcc.a(_clear_bss.o)
+__bss_start                                       /usr/lib/gcc/avr/4.7.2/avr5/libgcc.a(_clear_bss.o)
+__data_end                                        /usr/lib/gcc/avr/4.7.2/avr5/libgcc.a(_copy_data.o)
+__data_load_start                                 /usr/lib/gcc/avr/4.7.2/avr5/libgcc.a(_copy_data.o)
+__data_start                                      /usr/lib/gcc/avr/4.7.2/avr5/libgcc.a(_copy_data.o)
+__do_clear_bss                                    /usr/lib/gcc/avr/4.7.2/avr5/libgcc.a(_clear_bss.o)
+                                                  /usr/lib/gcc/avr/4.7.2/../../../avr/lib/avr5/libc.a(iob.o)
+                                                  /home/victor/workspace/eclipse_arduino/arduinoCore/Release/libarduinoCore.a(wiring.o)
+                                                  /home/victor/workspace/eclipse_arduino/arduinoCore/Release/libarduinoCore.a(malloc.o)
+                                                  ./ulthread.o
+__do_copy_data                                    /usr/lib/gcc/avr/4.7.2/avr5/libgcc.a(_copy_data.o)
+                                                  /home/victor/workspace/eclipse_arduino/arduinoCore/Release/libarduinoCore.a(malloc.o)
+                                                  ./ulthread.o
+                                                  ./main.o
+__epilogue_restores__                             /usr/lib/gcc/avr/4.7.2/avr5/libgcc.a(_epilogue.o)
+                                                  /usr/lib/gcc/avr/4.7.2/../../../avr/lib/avr5/libc.a(vfprintf_std.o)
+                                                  /usr/lib/gcc/avr/4.7.2/../../../avr/lib/avr5/libc.a(printf.o)
+__flp                                             /home/victor/workspace/eclipse_arduino/arduinoCore/Release/libarduinoCore.a(malloc.o)
+__heap_end                                        /usr/lib/gcc/avr/4.7.2/../../../avr/lib/avr5/crtm328p.o
+                                                  /home/victor/workspace/eclipse_arduino/arduinoCore/Release/libarduinoCore.a(malloc.o)
+__heap_start                                      /home/victor/workspace/eclipse_arduino/arduinoCore/Release/libarduinoCore.a(malloc.o)
+__init                                            /usr/lib/gcc/avr/4.7.2/../../../avr/lib/avr5/crtm328p.o
+__iob                                             /usr/lib/gcc/avr/4.7.2/../../../avr/lib/avr5/libc.a(iob.o)
+                                                  /usr/lib/gcc/avr/4.7.2/../../../avr/lib/avr5/libc.a(puts.o)
+                                                  /usr/lib/gcc/avr/4.7.2/../../../avr/lib/avr5/libc.a(printf.o)
+__malloc_heap_end                                 /home/victor/workspace/eclipse_arduino/arduinoCore/Release/libarduinoCore.a(malloc.o)
+__malloc_heap_start                               /home/victor/workspace/eclipse_arduino/arduinoCore/Release/libarduinoCore.a(malloc.o)
+__malloc_margin                                   /home/victor/workspace/eclipse_arduino/arduinoCore/Release/libarduinoCore.a(malloc.o)
+__prologue_saves__                                /usr/lib/gcc/avr/4.7.2/avr5/libgcc.a(_prologue.o)
+                                                  /usr/lib/gcc/avr/4.7.2/../../../avr/lib/avr5/libc.a(vfprintf_std.o)
+                                                  /usr/lib/gcc/avr/4.7.2/../../../avr/lib/avr5/libc.a(printf.o)
+__stack                                           /usr/lib/gcc/avr/4.7.2/../../../avr/lib/avr5/crtm328p.o
+__ultoa_invert                                    /usr/lib/gcc/avr/4.7.2/../../../avr/lib/avr5/libc.a(ultoa_invert.o)
+                                                  /usr/lib/gcc/avr/4.7.2/../../../avr/lib/avr5/libc.a(vfprintf_std.o)
+__vector_1                                        /usr/lib/gcc/avr/4.7.2/../../../avr/lib/avr5/crtm328p.o
+__vector_10                                       /usr/lib/gcc/avr/4.7.2/../../../avr/lib/avr5/crtm328p.o
+__vector_11                                       /usr/lib/gcc/avr/4.7.2/../../../avr/lib/avr5/crtm328p.o
+__vector_12                                       /usr/lib/gcc/avr/4.7.2/../../../avr/lib/avr5/crtm328p.o
+__vector_13                                       /usr/lib/gcc/avr/4.7.2/../../../avr/lib/avr5/crtm328p.o
+__vector_14                                       /usr/lib/gcc/avr/4.7.2/../../../avr/lib/avr5/crtm328p.o
+__vector_15                                       /usr/lib/gcc/avr/4.7.2/../../../avr/lib/avr5/crtm328p.o
+__vector_16                                       /home/victor/workspace/eclipse_arduino/arduinoCore/Release/libarduinoCore.a(wiring.o)
+                                                  /usr/lib/gcc/avr/4.7.2/../../../avr/lib/avr5/crtm328p.o
+__vector_17                                       /usr/lib/gcc/avr/4.7.2/../../../avr/lib/avr5/crtm328p.o
+__vector_18                                       /usr/lib/gcc/avr/4.7.2/../../../avr/lib/avr5/crtm328p.o
+__vector_19                                       /usr/lib/gcc/avr/4.7.2/../../../avr/lib/avr5/crtm328p.o
+__vector_2                                        /usr/lib/gcc/avr/4.7.2/../../../avr/lib/avr5/crtm328p.o
+__vector_20                                       /usr/lib/gcc/avr/4.7.2/../../../avr/lib/avr5/crtm328p.o
+__vector_21                                       /usr/lib/gcc/avr/4.7.2/../../../avr/lib/avr5/crtm328p.o
+__vector_22                                       /usr/lib/gcc/avr/4.7.2/../../../avr/lib/avr5/crtm328p.o
+__vector_23                                       /usr/lib/gcc/avr/4.7.2/../../../avr/lib/avr5/crtm328p.o
+__vector_24                                       /usr/lib/gcc/avr/4.7.2/../../../avr/lib/avr5/crtm328p.o
+__vector_25                                       /usr/lib/gcc/avr/4.7.2/../../../avr/lib/avr5/crtm328p.o
+__vector_3                                        /usr/lib/gcc/avr/4.7.2/../../../avr/lib/avr5/crtm328p.o
+__vector_4                                        /usr/lib/gcc/avr/4.7.2/../../../avr/lib/avr5/crtm328p.o
+__vector_5                                        /usr/lib/gcc/avr/4.7.2/../../../avr/lib/avr5/crtm328p.o
+__vector_6                                        /usr/lib/gcc/avr/4.7.2/../../../avr/lib/avr5/crtm328p.o
+__vector_7                                        /usr/lib/gcc/avr/4.7.2/../../../avr/lib/avr5/crtm328p.o
+__vector_8                                        /usr/lib/gcc/avr/4.7.2/../../../avr/lib/avr5/crtm328p.o
+__vector_9                                        /usr/lib/gcc/avr/4.7.2/../../../avr/lib/avr5/crtm328p.o
+__vector_default                                  /usr/lib/gcc/avr/4.7.2/../../../avr/lib/avr5/crtm328p.o
+__vectors                                         /usr/lib/gcc/avr/4.7.2/../../../avr/lib/avr5/crtm328p.o
+_exit                                             /usr/lib/gcc/avr/4.7.2/avr5/libgcc.a(_exit.o)
+adcGetConfiguration                               ./LS_ATmega328.o
+adcLoadConfiguration                              ./LS_ATmega328.o
+adcSelectChannel                                  ./LS_ATmega328.o
+adcStartConversion                                ./LS_ATmega328.o
+adcWaitConversionFinish                           ./LS_ATmega328.o
+create                                            ./ulthread.o
+create(void (*)(void*), int, int, void*)          ./main.o
+create_idle                                       ./ulthread.o
+debug                                             ./ulthread.o
+delay                                             /home/victor/workspace/eclipse_arduino/arduinoCore/Release/libarduinoCore.a(wiring.o)
+delayMicroseconds                                 /home/victor/workspace/eclipse_arduino/arduinoCore/Release/libarduinoCore.a(wiring.o)
+digitalRead                                       /home/victor/workspace/eclipse_arduino/arduinoCore/Release/libarduinoCore.a(wiring_digital.o)
+digitalWrite                                      /home/victor/workspace/eclipse_arduino/arduinoCore/Release/libarduinoCore.a(wiring_digital.o)
+digital_pin_to_bit_mask_PGM                       /home/victor/workspace/eclipse_arduino/arduinoCore/Release/libarduinoCore.a(wiring_digital.o)
+digital_pin_to_port_PGM                           /home/victor/workspace/eclipse_arduino/arduinoCore/Release/libarduinoCore.a(wiring_digital.o)
+digital_pin_to_timer_PGM                          /home/victor/workspace/eclipse_arduino/arduinoCore/Release/libarduinoCore.a(wiring_digital.o)
+eepromRead                                        ./LS_ATmega328.o
+eepromWrite                                       ./LS_ATmega328.o
+exit                                              /usr/lib/gcc/avr/4.7.2/avr5/libgcc.a(_exit.o)
+                                                  /usr/lib/gcc/avr/4.7.2/../../../avr/lib/avr5/crtm328p.o
+finish                                            ./ulthread.o
+finish(int)                                       ./main.o
+fputc                                             /usr/lib/gcc/avr/4.7.2/../../../avr/lib/avr5/libc.a(fputc.o)
+                                                  /usr/lib/gcc/avr/4.7.2/../../../avr/lib/avr5/libc.a(vfprintf_std.o)
+free                                              /home/victor/workspace/eclipse_arduino/arduinoCore/Release/libarduinoCore.a(malloc.o)
+get_threadPriority                                ./ulthread.o
+get_threadState                                   ./ulthread.o
+getid                                             ./ulthread.o
+idle_task                                         ./ulthread.o
+init                                              /home/victor/workspace/eclipse_arduino/arduinoCore/Release/libarduinoCore.a(wiring.o)
+                                                  ./main.o
+init_scheduler                                    ./ulthread.o
+init_scheduler()                                  ./main.o
+join                                              ./ulthread.o
+ledPin                                            ./main.o
+list_append                                       ./ulthread.o
+list_get                                          ./ulthread.o
+list_insert                                       ./ulthread.o
+list_removeHead                                   ./ulthread.o
+list_removeTail                                   ./ulthread.o
+list_remove_tid                                   ./ulthread.o
+loop                                              ./main.o
+main                                              ./main.o
+                                                  /usr/lib/gcc/avr/4.7.2/../../../avr/lib/avr5/crtm328p.o
+malloc                                            /home/victor/workspace/eclipse_arduino/arduinoCore/Release/libarduinoCore.a(malloc.o)
+                                                  ./ulthread.o
+micros                                            /home/victor/workspace/eclipse_arduino/arduinoCore/Release/libarduinoCore.a(wiring.o)
+millis                                            /home/victor/workspace/eclipse_arduino/arduinoCore/Release/libarduinoCore.a(wiring.o)
+pinMode                                           /home/victor/workspace/eclipse_arduino/arduinoCore/Release/libarduinoCore.a(wiring_digital.o)
+                                                  ./main.o
+plist_insert                                      ./ulthread.o
+port_to_input_PGM                                 /home/victor/workspace/eclipse_arduino/arduinoCore/Release/libarduinoCore.a(wiring_digital.o)
+port_to_mode_PGM                                  /home/victor/workspace/eclipse_arduino/arduinoCore/Release/libarduinoCore.a(wiring_digital.o)
+port_to_output_PGM                                /home/victor/workspace/eclipse_arduino/arduinoCore/Release/libarduinoCore.a(wiring_digital.o)
+print_list                                        ./ulthread.o
+printf                                            /usr/lib/gcc/avr/4.7.2/../../../avr/lib/avr5/libc.a(printf.o)
+                                                  ./ulthread.o
+                                                  ./main.o
+puts                                              /usr/lib/gcc/avr/4.7.2/../../../avr/lib/avr5/libc.a(puts.o)
+                                                  ./ulthread.o
+pxCurrentTCB                                      ./ulthread.o
+reschedule                                        ./ulthread.o
+sch                                               ./ulthread.o
+setup                                             ./main.o
+spiMasterInit                                     ./LS_ATmega328.o
+spiSlaveInit                                      ./LS_ATmega328.o
+spiSlaveReceive                                   ./LS_ATmega328.o
+spi_read_data                                     ./LS_ATmega328.o
+spi_transfer                                      ./LS_ATmega328.o
+spi_write_data                                    ./LS_ATmega328.o
+strnlen                                           /usr/lib/gcc/avr/4.7.2/../../../avr/lib/avr5/libc.a(strnlen.o)
+                                                  /usr/lib/gcc/avr/4.7.2/../../../avr/lib/avr5/libc.a(vfprintf_std.o)
+strnlen_P                                         /usr/lib/gcc/avr/4.7.2/../../../avr/lib/avr5/libc.a(strnlen_P.o)
+                                                  /usr/lib/gcc/avr/4.7.2/../../../avr/lib/avr5/libc.a(vfprintf_std.o)
+swapcontext                                       ./ulthread.o
+thr_run(void*)                                    ./main.o
+threads                                           ./ulthread.o
+timer0_millis                                     /home/victor/workspace/eclipse_arduino/arduinoCore/Release/libarduinoCore.a(wiring.o)
+timer0_overflow_count                             /home/victor/workspace/eclipse_arduino/arduinoCore/Release/libarduinoCore.a(wiring.o)
+vfprintf                                          /usr/lib/gcc/avr/4.7.2/../../../avr/lib/avr5/libc.a(vfprintf_std.o)
+                                                  /usr/lib/gcc/avr/4.7.2/../../../avr/lib/avr5/libc.a(printf.o)
+yield                                             ./ulthread.o
+yield()                                           ./main.o
